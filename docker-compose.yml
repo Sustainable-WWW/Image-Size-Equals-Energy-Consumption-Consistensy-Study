@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  imagetest_sustainablewww:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: imagetest_sustainablewww
+    container_name: imagetest
+    ports:
+      - 2500:2500
+    restart: unless-stopped
+
+volumes:
+  node_modules:
+  web-root:
+    driver: local
+    driver_opts:
+      type: none
+      device: /
+      o: bind
