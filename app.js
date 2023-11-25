@@ -173,6 +173,19 @@ app.get("/1000-2000/image-9/gif", (req, res) => res.render("1000-2000/Image-9/im
 app.get("/1000-2000/image-9/png", (req, res) => res.render("1000-2000/Image-9/image-test-png"));
 app.get("/1000-2000/image-9/jpg", (req, res) => res.render("1000-2000/Image-9/image-test-jpg"));
 
+// 500-1000 tests
+app.get("/500-1000/image-1/avif", (req, res) => res.render("500-1000/Image-1/image-test-avif"));
+app.get("/500-1000/image-1/webp", (req, res) => res.render("500-1000/Image-1/image-test-webp"));
+app.get("/500-1000/image-1/gif", (req, res) => res.render("500-1000/Image-1/image-test-gif"));
+app.get("/500-1000/image-1/png", (req, res) => res.render("500-1000/Image-1/image-test-png"));
+app.get("/500-1000/image-1/jpg", (req, res) => res.render("500-1000/Image-1/image-test-jpg"));
+
+app.get("/500-1000/image-2/avif", (req, res) => res.render("500-1000/Image-2/image-test-avif"));
+app.get("/500-1000/image-2/webp", (req, res) => res.render("500-1000/Image-2/image-test-webp"));
+app.get("/500-1000/image-2/gif", (req, res) => res.render("500-1000/Image-2/image-test-gif"));
+app.get("/500-1000/image-2/png", (req, res) => res.render("500-1000/Image-2/image-test-png"));
+app.get("/500-1000/image-2/jpg", (req, res) => res.render("500-1000/Image-2/image-test-jpg"));
+
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header(
