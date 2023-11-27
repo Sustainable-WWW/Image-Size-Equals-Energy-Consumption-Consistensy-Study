@@ -228,6 +228,31 @@ app.get("/500-1000/image-9/gif", (req, res) => res.render("500-1000/Image-9/imag
 app.get("/500-1000/image-9/png", (req, res) => res.render("500-1000/Image-9/image-test-png"));
 app.get("/500-1000/image-9/jpg", (req, res) => res.render("500-1000/Image-9/image-test-jpg"));
 
+// 250-500 tests
+app.get("/250-500/image-1/avif", (req, res) => res.render("250-500/Image-1/image-test-avif"));
+app.get("/250-500/image-1/webp", (req, res) => res.render("250-500/Image-1/image-test-webp"));
+app.get("/250-500/image-1/gif", (req, res) => res.render("250-500/Image-1/image-test-gif"));
+app.get("/250-500/image-1/png", (req, res) => res.render("250-500/Image-1/image-test-png"));
+app.get("/250-500/image-1/jpg", (req, res) => res.render("250-500/Image-1/image-test-jpg"));
+
+app.get("/250-500/image-2/avif", (req, res) => res.render("250-500/Image-2/image-test-avif"));
+app.get("/250-500/image-2/webp", (req, res) => res.render("250-500/Image-2/image-test-webp"));
+app.get("/250-500/image-2/gif", (req, res) => res.render("250-500/Image-2/image-test-gif"));
+app.get("/250-500/image-2/png", (req, res) => res.render("250-500/Image-2/image-test-png"));
+app.get("/250-500/image-2/jpg", (req, res) => res.render("250-500/Image-2/image-test-jpg"));
+
+app.get("/250-500/image-3/avif", (req, res) => res.render("250-500/Image-3/image-test-avif"));
+app.get("/250-500/image-3/webp", (req, res) => res.render("250-500/Image-3/image-test-webp"));
+app.get("/250-500/image-3/gif", (req, res) => res.render("250-500/Image-3/image-test-gif"));
+app.get("/250-500/image-3/png", (req, res) => res.render("250-500/Image-3/image-test-png"));
+app.get("/250-500/image-3/jpg", (req, res) => res.render("250-500/Image-3/image-test-jpg"));
+
+app.get("/250-500/image-4/avif", (req, res) => res.render("250-500/Image-4/image-test-avif"));
+app.get("/250-500/image-4/webp", (req, res) => res.render("250-500/Image-4/image-test-webp"));
+app.get("/250-500/image-4/gif", (req, res) => res.render("250-500/Image-4/image-test-gif"));
+app.get("/250-500/image-4/png", (req, res) => res.render("250-500/Image-4/image-test-png"));
+app.get("/250-500/image-4/jpg", (req, res) => res.render("250-500/Image-4/image-test-jpg"));
+
 app.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header(
